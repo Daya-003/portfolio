@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daya Santosh Tonape | Portfolio</title>
+    <link rel="stylesheet" href="main.css">
+    
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <h1 class="logo">Daya Santosh Tonape</h1>
+            <nav>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2>About Me-
+            <p>Hi, I'm Daya Santosh Tonape. I'm a web developer
+            with a passion for creating user-friendly and visually appealing websites.</p>
+            I am a driven, flexible person with a solid combination of hard and soft skills. SQL, Python, Java, and
+             web technologies including HTML, CSS, and JavaScript are among my primary technical skills. 
+             I've worked directly with data, developed backend systems, and designed responsive user interfaces.
+              I have experience with tools and frameworks that improve efficiency and scalability, and 
+              I know how to write clear, effective code.
+            I have excellent soft skills like communication, teamwork, problem-solving
+            , and flexibility in addition to my technical abilities. I work well in group settings and 
+            have a constant desire to learn new things. With a great work ethic and a proactive mindset, 
+            I endeavor to offer substantial contributions to whatever team or project I’m part of. 
+            I want to make use of my technical knowledge and interpersonal qualities to address real-world challenges and 
+            generate innovation.</h2>
+           
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2>My Projects</h2>
+            <div class="project-cards">
+                <!-- Project 1 -->
+                <div class="project-card">
+                    <img src="project1.png" alt="Project 1">
+                    <h3>Project 1</h3>
+                    <p>The minor project titled “Expense Tracking Using OCR and Machine Learning” focused on building 
+                    an intelligent system that could automatically extract and categorize expenses from uploaded receipts
+                    or invoices using Optical Character Recognition (OCR) and basic ML techniques.
+                    The aim was to eliminate manual data entry and simplify financial record-keeping for individuals and 
+                    small businesses.The core functionality was to allow users to upload an image or scanned copy of a receipt, 
+                    from which the system would identify and extract key details like the merchant name, date, items purchased,
+                    and total amount. This data would then be stored and categorized into predefined expense buckets such as food,
+                    travel, utilities, etc.We used Python as the primary programming language. For OCR, we leveraged Tesseract OCR,
+                     which efficiently extracted text from image files. Preprocessing tasks like noise reduction and image binarization
+                      were performed using OpenCV to improve OCR accuracy. A basic Machine Learning model was trained using Scikit-learn
+                       to classify the type of expense based on keywords and contextual features. Data was stored and managed using 
+                       SQLite.One of the main challenges was dealing with varying image quality and inconsistent receipt formats.
+                    To address this, we implemented adaptive image preprocessing techniques and tested multiple OCR configurations.
+                     Another challenge was accurately categorizing expenses, especially when receipts contained non-standard terminology 
+                     or abbreviations. This was tackled by enhancing the training dataset and refining the feature selection logic.</p>
+                </div>
+                <!-- Project 2 -->
+                <div class="project-card">
+                    <img src="project2.png" alt="Project 2">
+                    <h3>Project 2</h3>
+                    <p>
+                    Our major project focused on developing an AI-powered system for virtual furniture placement 
+                    and interior decor recommendations, blending computer vision, 3D modeling, and 
+                    AI to create immersive interior design experiences.The goal was to allow users to upload room images
+                    or layouts and receive intelligent, real-time suggestions for placing furniture and decor items without
+                    collisions or design inconsistencies.The frontend was built using HTML, CSS, JavaScript, and integrated 
+                    with a Django backend for managing users, uploads, and processing requests. The AI logic was developed 
+                    and tested using Python on Google Colab, utilizing libraries like OpenCV for room scanning, YOLOv8 
+                    for object detection, and MediaPipe for depth estimation. For 3D modeling and visualization,
+                    we explored Three.js and basic AR frameworks.The biggest challenge was achieving collision-free furniture 
+                    placement and ensuring accurate object detection within diverse room layouts. We overcame this by training 
+                    custom YOLO models and implementing a basic constraint satisfaction system to suggest only feasible placements. 
+                    Another hurdle was ensuring cross-platform performance and low latency, which we handled by optimizing image size.
+                    The outcome was a functional prototype that allowed users to preview decor setups virtually, choose themes, 
+                    and experiment with design variations in real-time. Additional features like dark/light mode, chatbot-based 
+                    decor assistance, and predefined layout templates enhanced usability.
+                    </p>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <p>If you'd like to get in touch, feel free to reach out via email at 
+            <a href="dayasantosht@gmail.com">dayasantosht@gmail.com</a>.</p>
+             <p> Resume : <a href="https://drive.google.com/file/d/1p8GH9_t7s2r4jacVnME1q8OMXeNCtqYG/view?usp=drive_link">https://drive.google.com/file/d/1p8GH9_t7s2r4jacVnME1q8OMXeNCtqYG/view?usp=drive_link</a>.</p>
+             <p> LinkedIn : <a href="https://www.linkedin.com/in/daya-santosh-tonape-b318352a8/">https://www.linkedin.com/in/daya-santosh-tonape-b318352a8/</a>.</p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Daya. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Optional JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
